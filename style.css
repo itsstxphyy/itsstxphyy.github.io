@@ -293,6 +293,7 @@ footer {
 /* Mobile */
 @media (max-width: 480px) {
     .app-card {
+        padding: 32px;
         flex-direction: column;
         text-align: center;
     }
