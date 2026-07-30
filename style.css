@@ -99,6 +99,10 @@ a {
     max-width: 80vw;
     height: auto;
     margin: 0 auto;
+
+    /* Fade in animation */
+    opacity: 0;
+    animation: fadeInLogo 1.5s ease forwards;
 }
 
 .arrow-down {
@@ -115,6 +119,15 @@ a {
 
     50% {
         transform: translateY(6px);
+    }
+}
+
+@keyframes fadeInLogo {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
 
